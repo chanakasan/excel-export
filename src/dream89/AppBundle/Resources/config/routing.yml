@@ -1,7 +1,11 @@
-dream89_app_homepage:
+app_homepage:
     pattern:  /
     defaults: { _controller: dream89AppBundle:Default:index }
 
-dream89_app_hello:
+app_download:
+    pattern:  /download
+    defaults: { _controller: dream89AppBundle:Default:download }
+
+app_hello:
     pattern:  /hello
     defaults: { _controller: dream89.hello.controller:indexAction }
