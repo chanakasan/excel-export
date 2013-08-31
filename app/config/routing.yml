@@ -1,0 +1,4 @@
+dream89_app:
+    resource: "@dream89AppBundle/Resources/config/routing.yml"
+    prefix:   /
+

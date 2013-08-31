@@ -1,0 +1,3 @@
+dream89_app_homepage:
+    pattern:  /
+    defaults: { _controller: dream89AppBundle:Default:index }
