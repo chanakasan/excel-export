@@ -1,7 +1,7 @@
 parameters:
-#    dream89_app.example.class: dream89\AppBundle\Example
+    dream89.controller.hello.class: dream89\AppBundle\Controller\HelloController
 
 services:
-#    dream89_app.example:
-#        class: %dream89_app.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    dream89.hello.controller:
+        class:     "%dream89.controller.hello.class%"
+        arguments: ["@templating"]

@@ -1,3 +1,14 @@
-dream89_app_homepage:
+app_homepage:
     pattern:  /
     defaults: { _controller: dream89AppBundle:Default:index }
+
+app_downloadcsv:
+    pattern:  /download/csv
+    defaults: { _controller: dream89AppBundle:Default:downloadcsv }
+app_downloadxls:
+    pattern:  /download/xls
+    defaults: { _controller: dream89AppBundle:Default:downloadxls }
+
+app_hello:
+    pattern:  /hello
+    defaults: { _controller: dream89.hello.controller:indexAction }
